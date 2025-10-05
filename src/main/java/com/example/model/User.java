@@ -2,6 +2,7 @@ package com.example.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import java.util.Objects;
 
 @Entity
 @Table(name = "users")
@@ -25,12 +26,29 @@ public class User {
 
     public User() {}
 
+    public User(String name, String email, int age) {
+        this.name = name;
+        this.email = email;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "id: " + id + "; username: " + name + "; email: " + email + "; age: " + age;
     }
 
-    //геттеры и сеттеры
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        User user = (User) obj;
+        return Objects.equals(this.id, user.getId());
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
