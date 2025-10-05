@@ -2,29 +2,36 @@ package com.example.DAOs;
 
 import com.example.model.User;
 import com.example.util.HibernateUtil;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+
 import java.time.LocalDate;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class UserDaoImpl implements UserDao {
+    private static final Logger logger = LogManager.getLogger(UserDaoImpl.class);
 
     @Override
-    public void save(User user) {
+    public User save(User user) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             transaction = session.beginTransaction();
             user.setCreated_at(LocalDate.now());
             session.persist(user);
             transaction.commit();
-            System.out.println("Пользователь успешно создан!");
+            logger.info("Пользователь с ID = {} успешно создан!", user.getId());
+            return user;
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
-            System.out.println("Не получилось создать пользователя. Попробуйте снова");
-            e.printStackTrace();
+            logger.error("Не получилось создать пользователя.");
+            return null;
         }
     }
 
@@ -44,24 +51,25 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void update(User user) {
+    public User update(User updatedUser) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             transaction = session.beginTransaction();
-            session.merge(user);
+            session.merge(updatedUser);
             transaction.commit();
-            System.out.println("Информация о пользователе обновлена!");
+            logger.info("Информация о пользователе с ID = {} успешно обновлена!", updatedUser.getId());
+            return updatedUser;
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
-            System.out.println("Не получилось обновить информацию о пользователе. Попробуйте снова");
-            e.printStackTrace();
+            logger.error("Не получилось обновить информацию о пользователе.");
+            return null;
         }
     }
 
     @Override
-    public void delete(Long id) {
+    public boolean delete(Long id) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             transaction = session.beginTransaction();
@@ -70,14 +78,14 @@ public class UserDaoImpl implements UserDao {
                 session.remove(user);
             }
             transaction.commit();
-            System.out.println("Пользователь успешно удален!");
+            logger.info("Пользователь с ID = {} успешно удален!", id);
+            return true;
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
-            System.out.println("Не получилось удалить пользователя. Попробуйте снова");
-            e.printStackTrace();
+            logger.error("Не получилось удалить пользователя.");
+            return false;
         }
     }
-
 }

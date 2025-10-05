@@ -1,0 +1,724 @@
+[INFO ] 2025-10-03 10:58:14.274 [main] Main - Выполнен вход в приложение
+[INFO ] 2025-10-03 10:58:26.870 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 10:58:26.951 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 10:58:27.723 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 10:58:28.206 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 10:58:28.233 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 10:58:30.356 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 10:58:30.637 [main] Main - Пользователь с ID 2 успешно найден!
+[INFO ] 2025-10-03 10:59:15.940 [main] Main - Приложение закончило работу.
+[INFO ] 2025-10-03 10:59:29.773 [main] Main - Выполнен вход в приложение
+[INFO ] 2025-10-03 10:59:41.828 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 10:59:41.906 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 10:59:42.650 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 10:59:43.176 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 10:59:43.205 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 10:59:45.018 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 10:59:45.271 [main] Main - Пользователь с ID 2 успешно найден!
+[INFO ] 2025-10-03 11:00:14.143 [main] Main - Приложение закончило работу.
+[INFO ] 2025-10-03 22:18:57.021 [main] Main - Выполнен вход в приложение
+[INFO ] 2025-10-03 22:19:17.349 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 22:19:17.453 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 22:19:18.238 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 22:19:18.798 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 22:19:18.831 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 22:19:20.444 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 22:19:20.753 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-03 22:19:36.439 [main] UserService - Пользователь с ID 2 успешно найден!
+[INFO ] 2025-10-03 22:19:52.082 [main] UserService - Не удалось найти пользователя с ID 5
+[INFO ] 2025-10-03 22:20:25.460 [main] Main - Приложение закончило работу.
+[INFO ] 2025-10-03 22:43:08.941 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 22:43:09.089 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 22:43:10.139 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 22:43:10.664 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 22:43:10.694 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 22:43:12.003 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 22:43:12.324 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-03 22:51:20.223 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 22:51:20.371 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 22:51:21.366 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 22:51:21.853 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 22:51:21.880 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 22:51:23.231 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 22:51:23.512 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-03 23:04:01.508 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-03 23:04:01.634 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-03 23:04:02.542 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-03 23:04:03.015 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-03 23:04:03.046 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-03 23:04:04.299 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-03 23:04:04.798 [main] UserDaoImpl - Пользователь с ID = 6 успешно создан!
+[INFO ] 2025-10-05 09:44:22.124 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 09:44:22.281 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 09:44:23.160 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 09:44:23.605 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 09:44:23.632 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 09:44:24.970 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 09:44:25.301 [main] UserDaoImpl - Пользователь с ID = 7 успешно создан!
+[INFO ] 2025-10-05 09:53:34.249 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 09:53:34.403 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 09:53:35.461 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 09:53:36.114 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 09:53:36.148 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 09:53:37.668 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN ] 2025-10-05 09:53:37.900 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 09:53:37.901 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(victor@gmail.com)" уже существует.
+[INFO ] 2025-10-05 09:56:37.483 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 09:56:37.642 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 09:56:38.683 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 09:56:39.199 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 09:56:39.233 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 09:56:40.470 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 09:56:40.753 [main] UserDaoImpl - Пользователь с ID = 9 успешно создан!
+[INFO ] 2025-10-05 09:59:00.741 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 09:59:00.858 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 09:59:01.730 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 09:59:02.230 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 09:59:02.262 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 09:59:03.472 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 09:59:03.707 [main] UserDaoImpl - Пользователь с ID = 10 успешно создан!
+[INFO ] 2025-10-05 10:03:03.785 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:03:03.905 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:03:04.801 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:03:05.313 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:03:05.339 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:03:06.606 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:03:06.938 [main] UserDaoImpl - Пользователь с ID = 11 успешно создан!
+[INFO ] 2025-10-05 10:04:37.650 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:04:37.789 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:04:39.062 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:04:39.597 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:04:39.662 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:04:40.913 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:04:41.173 [main] UserDaoImpl - Пользователь с ID = 12 успешно создан!
+[INFO ] 2025-10-05 10:08:59.742 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:08:59.848 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:09:00.707 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:09:01.412 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:09:01.455 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:09:02.733 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:09:03.005 [main] UserDaoImpl - Пользователь с ID = 13 успешно создан!
+[INFO ] 2025-10-05 10:17:21.132 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:17:21.279 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:17:22.386 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:17:22.938 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:17:22.980 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:17:24.474 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:17:24.800 [main] UserDaoImpl - Пользователь с ID = 14 успешно создан!
+[INFO ] 2025-10-05 10:28:02.680 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:28:02.828 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:28:03.789 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:28:04.353 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:28:04.380 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:28:05.880 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:28:06.139 [main] UserService - Пользователь с ID 14 успешно найден!
+[INFO ] 2025-10-05 10:32:14.462 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:32:14.577 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:32:15.384 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:32:15.844 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:32:15.873 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:32:17.020 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:32:17.205 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-05 10:36:07.807 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 10:36:07.932 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 10:36:08.755 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 10:36:09.251 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 10:36:09.278 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 10:36:10.494 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 10:36:10.684 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-05 11:19:58.502 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 11:19:58.629 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 11:19:59.569 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 11:20:00.160 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 11:20:00.207 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 11:20:01.680 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 11:20:01.981 [main] UserDaoImpl - Информация о пользователе с ID = 14 успешно обновлена!
+[INFO ] 2025-10-05 11:25:41.321 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 11:25:41.444 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 11:25:42.367 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 11:25:42.965 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 11:25:42.994 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 11:25:44.256 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 11:25:44.516 [main] UserDaoImpl - Пользователь с ID = 1 успешно удален!
+[INFO ] 2025-10-05 11:26:48.147 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 11:26:48.260 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 11:26:49.065 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 11:26:49.599 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 11:26:49.633 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 11:26:50.779 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 11:26:51.020 [main] UserDaoImpl - Пользователь с ID = 14 успешно удален!
+[INFO ] 2025-10-05 11:31:29.862 [main] Main - Выполнен вход в приложение
+[INFO ] 2025-10-05 11:31:44.365 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 11:31:44.443 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 11:31:45.136 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 11:31:45.627 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 11:31:45.650 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 11:31:47.181 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 11:31:47.457 [main] UserDaoImpl - Пользователь с ID = 15 успешно создан!
+[INFO ] 2025-10-05 11:32:03.041 [main] UserDaoImpl - Пользователь с ID = 16 успешно создан!
+[INFO ] 2025-10-05 11:32:19.342 [main] UserDaoImpl - Пользователь с ID = 17 успешно создан!
+[INFO ] 2025-10-05 11:32:35.694 [main] Main - Приложение закончило работу.
+[INFO ] 2025-10-05 11:42:35.009 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 11:42:35.126 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 11:42:35.914 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 11:42:36.416 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 11:42:36.455 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 11:42:37.617 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 12:04:22.883 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 12:04:23.102 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 12:04:24.350 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 12:04:25.046 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 12:04:25.087 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 12:04:26.883 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 12:05:10.181 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 12:05:10.389 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 12:05:12.055 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 12:05:12.823 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 12:05:12.873 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 12:05:14.956 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 13:56:45.983 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 13:56:46.144 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 13:56:47.435 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 13:56:48.142 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 13:56:48.180 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 13:56:51.829 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN ] 2025-10-05 13:56:52.252 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 13:56:52.253 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[INFO ] 2025-10-05 13:57:37.914 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 13:57:38.260 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 13:57:39.155 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 13:57:39.675 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 13:57:39.724 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 13:57:41.708 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN ] 2025-10-05 13:57:41.930 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 13:57:41.931 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[INFO ] 2025-10-05 14:00:25.567 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:00:25.710 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:00:26.669 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:00:27.208 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:00:27.250 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:00:28.978 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:00:29.263 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:01:49.705 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:01:49.875 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:01:51.481 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:01:52.487 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:01:52.529 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:01:54.339 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:01:54.582 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[WARN ] 2025-10-05 14:02:03.195 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:02:03.196 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[WARN ] 2025-10-05 14:02:07.438 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:02:07.438 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[WARN ] 2025-10-05 14:02:10.926 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:02:10.926 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[INFO ] 2025-10-05 14:02:53.112 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:02:53.272 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:02:54.296 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:02:54.878 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:02:54.908 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:02:57.071 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:02:57.442 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[WARN ] 2025-10-05 14:03:06.168 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:03:06.169 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[WARN ] 2025-10-05 14:03:10.030 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:03:10.030 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[WARN ] 2025-10-05 14:03:13.527 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:03:13.527 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[INFO ] 2025-10-05 14:06:06.249 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:06:06.388 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:06:07.265 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:06:07.730 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:06:07.758 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:06:09.611 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:06:09.849 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:06:17.636 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:06:17.653 [main] UserDaoImpl - Пользователь с ID = 2 успешно удален!
+[WARN ] 2025-10-05 14:06:21.189 [main] error - HHH000247: ErrorCode: 0, SQLState: 23505
+[WARN ] 2025-10-05 14:06:21.189 [main] error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_email_key"
+  Подробности: Ключ "(email)=(ivan@gmail.com)" уже существует.
+[INFO ] 2025-10-05 14:06:26.454 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:06:26.470 [main] UserDaoImpl - Информация о пользователе с ID = 4 успешно обновлена!
+[INFO ] 2025-10-05 14:08:35.588 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:08:35.713 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:08:36.645 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:08:37.189 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:08:37.227 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:08:39.100 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:08:39.403 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:08:47.588 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:08:47.601 [main] UserDaoImpl - Пользователь с ID = 2 успешно удален!
+[INFO ] 2025-10-05 14:08:51.518 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:08:51.521 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:08:54.939 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:08:54.954 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
+[INFO ] 2025-10-05 14:11:35.075 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:11:35.246 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:11:36.159 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:11:36.683 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:11:36.712 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:11:38.460 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:11:38.722 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:11:47.023 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:11:47.037 [main] UserDaoImpl - Пользователь с ID = 2 успешно удален!
+[INFO ] 2025-10-05 14:11:50.441 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:11:50.444 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:11:54.402 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:11:54.418 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
+[INFO ] 2025-10-05 14:13:23.663 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:13:23.854 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:13:24.728 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:13:25.237 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:13:25.273 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:13:27.040 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:13:27.306 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:13:35.703 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:13:35.719 [main] UserDaoImpl - Пользователь с ID = 2 успешно удален!
+[INFO ] 2025-10-05 14:13:39.342 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:13:39.345 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:13:43.692 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:13:43.710 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
+[INFO ] 2025-10-05 14:19:31.865 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:19:32.026 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:19:33.278 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:19:33.928 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:19:33.961 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:19:35.883 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:19:40.742 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:19:40.745 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:19:44.493 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:19:48.849 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:19:48.868 [main] UserDaoImpl - Пользователь с ID = 4 успешно удален!
+[INFO ] 2025-10-05 14:19:52.365 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:19:52.382 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
+[INFO ] 2025-10-05 14:21:37.845 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:21:38.029 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:21:39.016 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:21:39.534 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:21:39.566 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:21:41.399 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:21:41.667 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:21:50.424 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:21:50.439 [main] UserDaoImpl - Пользователь с ID = 2 успешно удален!
+[INFO ] 2025-10-05 14:21:53.913 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:21:53.916 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:21:58.089 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:21:58.105 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
+[INFO ] 2025-10-05 14:22:52.163 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-05 14:22:52.303 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-05 14:22:53.134 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-05 14:22:53.654 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-05 14:22:53.695 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-05 14:22:55.345 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-05 14:23:00.589 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-05 14:23:00.593 [main] UserDaoImpl - Пользователь с ID = 2 успешно создан!
+[INFO ] 2025-10-05 14:23:04.381 [main] UserDaoImpl - Пользователь с ID = 3 успешно создан!
+[INFO ] 2025-10-05 14:23:08.218 [main] UserDaoImpl - Пользователь с ID = 4 успешно создан!
+[INFO ] 2025-10-05 14:23:08.235 [main] UserDaoImpl - Пользователь с ID = 4 успешно удален!
+[INFO ] 2025-10-05 14:23:12.266 [main] UserDaoImpl - Пользователь с ID = 5 успешно создан!
+[INFO ] 2025-10-05 14:23:12.281 [main] UserDaoImpl - Информация о пользователе с ID = 5 успешно обновлена!
