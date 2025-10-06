@@ -12,14 +12,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.AssertionsKt.assertNull;
 
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
+
 import static org.mockito.Mockito.*;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
     @Mock
     private UserDao mockedUserDao = new UserDaoImpl();
@@ -36,10 +40,10 @@ public class UserServiceTest {
     @Test
     void createNewUserTest() {
         User userToAdd = new User("victor", "victor@gmail.com", 20);
-        when(mockedUserDao.save(userToAdd)).thenReturn(userToAdd);
+        lenient().when(mockedUserDao.save(userToAdd)).thenReturn(userToAdd);
 
         User addedUser = userService.createNewUser(userToAdd);
-
+        
         assertEquals(userToAdd, addedUser);
     }
 
