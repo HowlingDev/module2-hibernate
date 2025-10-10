@@ -1,12 +1,9 @@
 package com.example;
 
 import com.example.DAOs.UserDao;
-import com.example.DAOs.UserDaoImpl;
 import com.example.model.User;
 import com.example.services.UserService;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -15,7 +12,6 @@ import static org.junit.jupiter.api.AssertionsKt.assertNull;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.mockito.Mockito.*;
@@ -26,52 +22,44 @@ import java.util.List;
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
     @Mock
-    private UserDao mockedUserDao = new UserDaoImpl();
+    private UserDao mockedUserDao;
 
     @InjectMocks
     private UserService userService;
 
-    @BeforeEach
-    void setUp() {
-        MockitoAnnotations.openMocks(this);
-    }
-
-    @Disabled
     @Test
     void createNewUserTest() {
         User userToAdd = new User("victor", "victor@gmail.com", 20);
-        lenient().when(mockedUserDao.save(userToAdd)).thenReturn(userToAdd);
+        userToAdd.setId(1L);
+        userToAdd.setCreated_at(LocalDate.of(2025,10,10));
+        when(mockedUserDao.save(userToAdd)).thenReturn(userToAdd);
 
         User addedUser = userService.createNewUser(userToAdd);
         
         assertEquals(userToAdd, addedUser);
     }
 
-    @Disabled
     @Test
     void readUserTest_shouldGetUserById() {
         User expectedUser = new User("victor", "victor@gmail.com", 20);
-        expectedUser.setId(14L);
+        expectedUser.setId(11L);
         expectedUser.setCreated_at(LocalDate.of(2025,10,5));
         when(mockedUserDao.getById(expectedUser.getId())).thenReturn(expectedUser);
 
-        User actualUser = userService.readUser(14L);
+        User actualUser = userService.readUser(11L);
 
         assertEquals(expectedUser, actualUser);
     }
 
-    @Disabled
     @Test
     void readUserTest_returnNull() {
-        Long id = 1L;
-        when(mockedUserDao.getById(id)).thenReturn(null);
+        when(mockedUserDao.getById(anyLong())).thenReturn(null);
 
         User actualUser = userService.readUser(1L);
 
         assertNull(actualUser);
     }
 
-    @Disabled
     @Test
     void updateUserTest_shouldUpdateUser() {
         User updatedUser = new User("victor123", "victor@gmail.com", 25);
@@ -88,26 +76,23 @@ public class UserServiceTest {
         assertEquals(updatedUser.getCreated_at(), actual.getCreated_at());
     }
 
-    @Disabled
     @Test
     void deleteUser() {
-        Long id = 14L;
-        when(mockedUserDao.delete(id)).thenReturn(true);
+        when(mockedUserDao.delete(anyLong())).thenReturn(true);
 
-        boolean actual = userService.deleteUser(id);
+        boolean actual = userService.deleteUser(9L);
 
         assertTrue(actual);
     }
 
-    @Disabled
     @Test
     void AllUsersTest() {
         User user1 = new User("ivan", "ivan@gmail.com", 19);
-        user1.setId(15L); user1.setCreated_at(LocalDate.of(2025,10,5));
+        user1.setId(1L); user1.setCreated_at(LocalDate.of(2025,10,5));
         User user2 = new User("dima", "dima@gmail.com", 20);
-        user2.setId(16L); user2.setCreated_at(LocalDate.of(2025,10,5));
+        user2.setId(8L); user2.setCreated_at(LocalDate.of(2025,10,9));
         User user3 = new User("vlad", "vlad@gmail.com", 26);
-        user3.setId(17L); user3.setCreated_at(LocalDate.of(2025,10,5));
+        user3.setId(23L); user3.setCreated_at(LocalDate.of(2025,10,3));
         List<User> expectedUsers = List.of(user1, user2, user3);
         when(mockedUserDao.getAllUsers()).thenReturn(expectedUsers);
 

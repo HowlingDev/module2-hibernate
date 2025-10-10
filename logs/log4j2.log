@@ -1314,3 +1314,53 @@
 	Maximum pool size: 1
 [INFO ] 2025-10-06 15:48:45.689 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 [INFO ] 2025-10-06 15:48:45.967 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-10 11:00:02.955 [main] Main - Выполнен вход в приложение
+[INFO ] 2025-10-10 11:00:19.268 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-10 11:00:19.369 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-10 11:00:20.157 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-10 11:00:20.716 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-10 11:00:20.753 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-10 11:00:22.317 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-10 11:00:22.600 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-10 11:00:28.666 [main] Main - Приложение закончило работу.
+[INFO ] 2025-10-10 11:01:22.942 [main] Version - HHH000412: Hibernate ORM core version 7.1.1.Final
+[WARN ] 2025-10-10 11:01:23.046 [main] deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+[WARN ] 2025-10-10 11:01:23.796 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[WARN ] 2025-10-10 11:01:24.346 [main] deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-10-10 11:01:24.378 [main] pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.3
+	Default catalog/schema: postgres/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 1
+[INFO ] 2025-10-10 11:01:25.685 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-10-10 11:01:25.955 [main] UserDaoImpl - Пользователь с ID = 1 успешно создан!
+[INFO ] 2025-10-10 11:39:56.858 [main] UserService - Пользователь с ID 1 успешно найден!
+[INFO ] 2025-10-10 11:44:38.970 [main] UserService - Пользователь с ID 11 успешно найден!
+[INFO ] 2025-10-10 11:45:24.085 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-10 11:45:24.152 [main] UserService - Пользователь с ID 11 успешно найден!
+[INFO ] 2025-10-10 11:47:01.275 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-10 11:47:01.334 [main] UserService - Пользователь с ID 11 успешно найден!
+[INFO ] 2025-10-10 11:47:44.221 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-10 11:47:44.290 [main] UserService - Пользователь с ID 11 успешно найден!
+[INFO ] 2025-10-10 11:48:32.293 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-10 11:48:32.329 [main] UserService - Пользователь с ID 11 успешно найден!
+[INFO ] 2025-10-10 11:49:53.528 [main] UserService - Не удалось найти пользователя с ID 1
+[INFO ] 2025-10-10 11:49:53.565 [main] UserService - Пользователь с ID 11 успешно найден!

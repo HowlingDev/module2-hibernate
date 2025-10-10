@@ -9,14 +9,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class HibernateUtil {
-    private static SessionFactory sessionFactory = buildSessionFactory();
+    private static final SessionFactory sessionFactory = buildSessionFactory();
     private static final Logger logger = LogManager.getLogger(HibernateUtil.class);
 
     private static SessionFactory buildSessionFactory() {
         try {
             return new Configuration()
-                    .configure("hibernate.cfg.xml")
-                    .addAnnotatedClass(User.class)
+                    .configure()
                     .buildSessionFactory();
         } catch (Throwable e) {
             logger.error("Не удалось открыть SessionFactory.");

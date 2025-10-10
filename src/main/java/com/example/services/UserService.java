@@ -10,8 +10,12 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 
 public class UserService {
-    public static final UserDao userDao = new UserDaoImpl();
+    public static UserDao userDao = new UserDaoImpl();
     private static final Logger logger = LogManager.getLogger(UserService.class);
+
+    public UserService(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
     public User createNewUser(User user) {
         return userDao.save(user);

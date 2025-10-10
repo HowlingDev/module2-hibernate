@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Main {
     public static final UserDao userDao = new UserDaoImpl();
-    public static final UserService userService = new UserService();
+    public static final UserService userService = new UserService(userDao);
     public static Scanner sc = new Scanner(System.in);
     private static final Logger logger = LogManager.getLogger(Main.class);
 
