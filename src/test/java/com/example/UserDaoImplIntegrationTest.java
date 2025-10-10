@@ -4,39 +4,38 @@ import com.example.DAOs.UserDao;
 import com.example.DAOs.UserDaoImpl;
 import com.example.model.User;
 
+import com.example.util.HibernateUtil;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.testcontainers.containers.PostgreSQLContainer;
-import org.testcontainers.utility.DockerImageName;
+import org.testcontainers.junit.jupiter.Container;
+import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.util.Collections;
 import java.util.List;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@Testcontainers
 public class UserDaoImplIntegrationTest {
-    private static final DockerImageName myImage = DockerImageName.parse("postgres:latest")
-            .asCompatibleSubstituteFor("postgres");
-    private PostgreSQLContainer<?> postgreSQLContainer;
-    private UserDao userDao;
+    @Container
+    private static PostgreSQLContainer<?> postgreSQLContainer = new PostgreSQLContainer<>("postgres:latest")
+            .withUsername("user")
+            .withPassword("password")
+            .withDatabaseName("testUsersDB");
 
-    @BeforeEach
-    void startPostgreSQL() {
-        postgreSQLContainer = new PostgreSQLContainer<>(myImage)
-                .withUsername("user")
-                .withPassword("password")
-                .withDatabaseName("testUsersDB");
-        postgreSQLContainer.start();
+    private static UserDao userDao = new UserDaoImpl();
+
+    @BeforeAll
+    public static void setUp() {
         System.setProperty("hibernate.connection.url", postgreSQLContainer.getJdbcUrl());
         System.setProperty("hibernate.connection.username", postgreSQLContainer.getUsername());
         System.setProperty("hibernate.connection.password", postgreSQLContainer.getPassword());
-        userDao = new UserDaoImpl();
     }
-
-    @AfterEach
-    void stopPostgreSQL() {
-        postgreSQLContainer.stop();
+    @AfterAll
+    public static void tearDown() {
+        HibernateUtil.closeSessionFactory();
     }
 
     @Test

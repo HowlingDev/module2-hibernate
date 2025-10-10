@@ -1,7 +1,5 @@
 package com.example.util;
 
-import com.example.model.User;
-
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 

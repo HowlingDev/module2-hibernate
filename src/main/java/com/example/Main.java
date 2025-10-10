@@ -26,6 +26,9 @@ public class Main {
         boolean exit = false;
         System.out.println("Добро пожаловать в приложение! \uD83D\uDE03 ");
         logger.info("Выполнен вход в приложение");
+        System.setProperty("hibernate.connection.url", "jdbc:postgresql://localhost:5432/postgres");
+        System.setProperty("hibernate.connection.username", "postgres");
+        System.setProperty("hibernate.connection.password", "gvolk");
 
         while (!exit) {
             System.out.println("Выберите нужное действие:");
